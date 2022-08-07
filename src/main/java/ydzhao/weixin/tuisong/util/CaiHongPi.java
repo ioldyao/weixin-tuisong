@@ -18,8 +18,8 @@ import java.util.Random;
  * @Date 2022/8/2 17:26
  */
 public class CaiHongPi {
-    private static String key = "xxx";
-    private static String url = "http://api.tianapi.com/caihongpi/index?key=";
+    private static String key = "2d33bca84eb599c16d22c0f740707fdb";
+    private static String url = "http://api.tianapi.com/qingshi/index?key=";
     private static List<String> jinJuList = new ArrayList<>();
     private static String name = "老婆";
 

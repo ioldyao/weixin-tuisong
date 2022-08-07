@@ -13,11 +13,17 @@ import ydzhao.weixin.tuisong.util.Pusher;
 @Component
 public class JobWorker {
     //要推送的用户openid
-    private static String openId = "odbd-6b1RhzrGEPCRT4rmmLKwpas";
+    private static String openId = "oLUEX6Ahtw-O7EkjsgL0NcPC5dBM";
+    private static String suz = "oLUEX6DdaoY2ZaI7figIQjFOCi-o";
+    private static String mxp = "oLUEX6JFetIM5my9Pq10mYw3eMlI";
 
-    @Scheduled(cron = "0 30 7 * * ?")
+    @Scheduled(cron = "0 50 9 ? * MON-FRI")
+    @Scheduled(cron = "0 00 19 ? * MON-FRI")
     public void goodMorning(){
         Pusher.push(openId);
+        Pusher.push(suz);
+        Pusher.push(mxp);
+
     }
 
 }

@@ -15,8 +15,8 @@ import ydzhao.weixin.tuisong.util.Pusher;
 @RestController
 public class PushController {
     //要推送的用户openid
-    private static String mxp = "odbd-6b1RhzrGEPCRT4rmmLKwpas";
-    private static String zyd = "odbd-6U6ygdSTCwldsJ6qs0kxXeA";
+    private static String mxp = "oLUEX6Ahtw-O7EkjsgL0NcPC5dBM";
+    private static String zyd = "oLUEX6DdaoY2ZaI7figIQjFOCi-o";
 
 
     /**

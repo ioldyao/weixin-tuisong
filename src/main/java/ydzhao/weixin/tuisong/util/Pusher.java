@@ -17,10 +17,10 @@ public class Pusher {
     /**
      * 测试号的appId和secret
      */
-    private static String appId = "xxx";
-    private static String secret = "6e2a329fd59e83fb87f013cd3a405137";
+    private static String appId = "wxfdef6877335928e4";
+    private static String secret = "d50028f32eeb4b460a7772237d6ae79c";
     //模版id
-    private static String templateId = "BmHHbIFsP7SqjebQ5rgDRjBxPtRcDxgrvqyiAojgrh8";
+    private static String templateId = "WVVAJseOfCPlWqh3uTdQBzffZb9vfXfXLiDuELm1Wlc";
 
     public static void push(String openId){
         //1，配置
@@ -36,7 +36,7 @@ public class Pusher {
                 //.url("https://30paotui.com/")//点击模版消息要访问的网址
                 .build();
         //3,如果是正式版发送模版消息，这里需要配置你的信息
-        //        templateMessage.addData(new WxMpTemplateData("name", "value", "#FF00FF"));
+                templateMessage.addData(new WxMpTemplateData("name", "value", "#FF00FF"));
         //                templateMessage.addData(new WxMpTemplateData(name2, value2, color2));
         //填写变量信息，比如天气之类的
         JSONObject todayWeather = Tianqi.getNanjiTianqi();
